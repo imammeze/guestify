@@ -9,7 +9,7 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
+     public function up(): void
     {
         Schema::table('tamus', function (Blueprint $table) {
             $table->string('nomor')->nullable()->after('instansi');
@@ -26,4 +26,3 @@ return new class extends Migration
         });
     }
 };
-
