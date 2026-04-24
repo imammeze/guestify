@@ -9,12 +9,12 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "vite build",
+    "buildCommand": "vite build || npm run build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
-        "APP_URL": "https://guestify.com",
+        "APP_DEBUG": "true",
+        "APP_URL": "",
         "APP_KEY": "base64:yeGZD+22Mn5cTmOZVtl4zkU8eMsjV1lRXn9Lthc+nnA=",
 
         "DB_CONNECTION": "mysql",
